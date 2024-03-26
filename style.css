@@ -95,7 +95,8 @@ header {
     line-height: 30px;
 }
 
-.immagini{
+.immagini
+.immagini2{
     width: 100%;
 }
 
@@ -106,6 +107,40 @@ header {
     object-fit: cover;
     align-self: center;
 }
+
+.button-blue{
+    background-color: #0084fd;
+    padding: 1rem auto;
+    color: white;
+    width: 250px;
+    border: none;
+    border-radius: 18px;
+    letter-spacing: 4px;
+    height: 40px;
+}
+
+.button-purple{
+    background-color: #9792e4;
+    padding: 1rem auto;
+    color: white;
+    width: 150px;
+    border: none;
+    border-radius: 18px;
+    letter-spacing: 4px;
+    height: 40px;
+}
+
+.button-white{
+    background-color: white;
+    color: #9792e4;
+    padding: 3rem auto;
+    width: 250px;
+    border: none;
+    border-radius: 30px;
+    height: 60px;
+    align-self: center;
+}
+
 .item1{
     display: flex;
     flex-direction: column;
@@ -143,7 +178,6 @@ header {
     display: flex;
     flex-direction: column;
     background-color: white;
-    min-height: 30rem;
     padding: 2rem;
     border-radius: 50px;
     color: black;
@@ -171,11 +205,11 @@ header {
     display: flex;
     flex-direction: column;
     background-color: #9792e4;
-    min-height: 30rem;
     padding: 2rem;
     border-radius: 50px;
     text-align: center;
     color: white;
+    justify-content: space-between;
 }
 
 .end{
@@ -216,8 +250,23 @@ footer{
 
     .column{
         width: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
     }
 
+    .immagini{
+        width: 50%;
+    }
+
+    .cards{
+        flex-direction: row;
+        text-align: left;
+    }
+
+    .immagini-tonde{
+        margin-right: 1rem;
+    }
 }
 
 @media screen and (min-width: 1024px){
