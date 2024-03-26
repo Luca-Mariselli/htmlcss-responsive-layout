@@ -4,19 +4,39 @@
     padding: 0;
 }
 
+html{
+    font-family: sans-serif;
+}
+
 .margin-bot2{
     margin-bottom: 2rem;
+}
+
+.margin-bot4{
+    margin-bottom: 4rem;
 }
 
 .padding-top2{
     padding-top: 2rem;
 }
 
+.font-medium{
+    font-size: 28px;
+}
+
+.font-big{
+    font-size: 50px;
+}
+
+.font-bigger{
+    font-size: 100px;
+}
 
 header {
     width: 100%;
     min-height: 6rem;
     background-color: #0084fd;
+    color: white;
 }
 
 .h-flex{
@@ -27,15 +47,31 @@ header {
     padding: 2rem;
 }
 
+.h-item{
+    display: flex;
+}
+
+.hidden{
+    display: none;
+}
+
 .container{
     width: 100%;
     margin: 0 auto;
 }
 
-.purple{
+.purplebg{
     background-color: #9792e4;
+    color: white;
 }
 
+.purpletext{
+    color: #9792e4;
+}
+
+.yellow{
+    color: #fdc15f;
+}
 .flex1,
 .flex2,
 .flex3{
@@ -47,13 +83,37 @@ header {
     padding: 2rem;
 }
 
+.blue{
+    color: #0084fd;
+}
+
+.bold{
+    font-weight: 600;
+}
+
+.line-height{
+    line-height: 30px;
+}
+
+.immagini{
+    width: 100%;
+}
+
+.immagini-tonde{
+    border-radius: 50%;
+    height: 50%;
+    width: 50%;
+    object-fit: cover;
+    align-self: center;
+}
 .item1{
     display: flex;
     flex-direction: column;
     min-height: 30rem;
     background-color: #b5ddff;
-    justify-content: space-between;
-    padding: 2rem;
+    padding: 2rem 2rem 0 2rem;
+    border-radius: 50px;
+
 }
 
 .item2{
@@ -61,16 +121,21 @@ header {
     flex-direction: column;
     min-height: 15rem;
     background-color: #b5ddff;
-    justify-content: space-between;
+    align-content: center;
+    border-radius: 50px;
     padding: 2rem;
+    text-align: center;
 }
 
 .item3{
     display: flex;
     flex-direction: column;
     min-height: 30rem;
-    justify-content: space-between;
-    padding: 2rem;
+    padding: 2rem 2rem 2rem 0;
+}
+
+.item4{
+    text-align: center;
 }
 
 .item4,
@@ -79,15 +144,27 @@ header {
     flex-direction: column;
     background-color: white;
     min-height: 30rem;
-    justify-content: space-between;
     padding: 2rem;
     border-radius: 50px;
-    text-align: center;
+    color: black;
+}
+
+.circle{
+    background-color: #9792e4;
+    border-radius: 50%;
+    width: 20px;
+    height: 10px;
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
 }
 
 .testimonials{
     width: 80%;
     margin: 3rem auto;
+    text-align: center;
 }
 
 .cards{
@@ -95,15 +172,21 @@ header {
     flex-direction: column;
     background-color: #9792e4;
     min-height: 30rem;
-    justify-content: space-between;
     padding: 2rem;
     border-radius: 50px;
     text-align: center;
+    color: white;
+}
+
+.end{
+    padding: 2rem;
+    font-size: 12px;
 }
 
 footer{
     background-color: #222;
     color: white;
+    text-align: center;
 }
 
 @media screen and (min-width: 490px){
